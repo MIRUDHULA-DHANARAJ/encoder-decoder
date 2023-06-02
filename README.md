@@ -83,7 +83,8 @@ endmodule
 
 ## Encoder: 
 
-![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/87ec40c3-892a-4246-a3bb-6fb94beb04c9)
+
+![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/d2f7c750-7ff3-4efb-8e3b-839b74e1dd74)
 
 
 ## Timing Diagram:
@@ -94,8 +95,7 @@ endmodule
 
 ## Encoder: 
 
-![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/5b5ca457-e5c8-49ee-b5c2-2663304d28ce)
-
+![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/b11e6e4b-38d8-4179-b8c1-9d5afa360524)
 
 ## Result:
 Thus the decoder and encoder circuits are designed and implemented and the truth tables are verified.
