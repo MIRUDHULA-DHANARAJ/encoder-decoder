@@ -91,11 +91,13 @@ endmodule
 
 ## Decoder: 
 
-![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/ee61c242-960a-402f-bb01-a13c2e8eed92)
+![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/748edb00-ce4c-438b-84d8-81ecd8da5e57)
+
 
 ## Encoder: 
 
-![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/b11e6e4b-38d8-4179-b8c1-9d5afa360524)
+![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/e872f1a6-72f9-4a74-9895-ef6c3a8dadb6)
+
 
 ## Result:
 Thus the decoder and encoder circuits are designed and implemented and the truth tables are verified.
