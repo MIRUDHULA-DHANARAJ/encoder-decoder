@@ -44,15 +44,57 @@ A0 = Y7 + Y5 + Y3 + Y1 <br>
 
 
 ## Program:
+```
+Developed By: Mirudhula D 
+Register No.: 212221230060
+```
 
+## Decoder
+```
+module exp8a(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+input a,b,c;
+output d0,d1,d2,d3,d4,d5,d6,d7;
+assign d0=((~a)&(~b)&(~c));
+assign d1=((~a)&(~b)&c);
+assign d2=((~a)&b&(~c));
+assign d3=((~a)&b&c);
+assign d4=(a&(~b)&(~c));
+assign d5=(a&(~b)&c);
+assign d6=(a&b&(~c));
+assign d7=(a&b&c);
+endmodule
+```
+## Encoder
+```
+module exp8b(y7,y6,y5,y4,y3,y2,y1,a2,a1,a0);
+input y7,y6,y5,y4,y3,y2,y1;
+output a2,a1,a0;
+assign a2=(y7+y6+y5+y4);
+assign a1=(y7+y6+y3+y2);
+assign a0=(y7+y5+y3+y1);
+endmodule
+```
 
 ## RTL Schematic:
 
+## Decoder: 
 
+![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/dcdced0e-ecca-45a7-bcb3-a6496eb5ffb3)
+
+## Encoder: 
+
+![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/87ec40c3-892a-4246-a3bb-6fb94beb04c9)
 
 
 ## Timing Diagram:
 
+## Decoder: 
+
+![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/ee61c242-960a-402f-bb01-a13c2e8eed92)
+
+## Encoder: 
+
+![image](https://github.com/MIRUDHULA-DHANARAJ/encoder-decoder/assets/94828147/5b5ca457-e5c8-49ee-b5c2-2663304d28ce)
 
 
 ## Result:
